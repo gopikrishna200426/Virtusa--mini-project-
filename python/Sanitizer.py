@@ -1,8 +1,4 @@
-# -------------------------------
 # Social Media Content Sanitizer
-# -------------------------------
-
-# Sample posts (you can change or load from file later)
 posts = [
     "User123: I hate this app, it's toxic! http://badlink.com",
     "User456: This is a good day!",
@@ -35,7 +31,6 @@ for post in posts:
 with open("links_found.txt", "w") as file:
     for link in links:
         file.write(link + "\n")
-
 # Final Output
 print("\n--- Cleaned Posts ---")
 for p in cleaned_posts:

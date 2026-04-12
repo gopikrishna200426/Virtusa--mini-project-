@@ -1,11 +1,11 @@
-# 🚚 E-Commerce Logistics Tracker (SQL Project)
+#  E-Commerce Logistics Tracker (SQL Project)
 
-## 📌 Business Case
+##  Business Case
 
 **SwiftShip** is a third-party logistics provider handling thousands of deliveries daily.
 The company faces issues with **delayed shipments** and **underperforming delivery partners**.
 
-## 🎯 Project Objective
+##  Project Objective
 
 This project aims to:
 
@@ -14,13 +14,13 @@ This project aims to:
 * Calculate success rates
 * Analyze delivery trends and popular cities
   
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * MySQL
 * SQL (DDL, DML, Joins, Aggregations, Date Functions)
 
 ---
-## 🗂️ Database Schema
+##  Database Schema
 
 ### 1. Partners
 
@@ -34,32 +34,32 @@ This project aims to:
 
 * Stores shipment status updates
 ---
-## ⚙️ Features Implemented
+##  Features Implemented
 
-### 🔴 Delayed Shipments Detection
+###  Delayed Shipments Detection
 
 * Identifies shipments delivered after the promised date
 
-### 📊 Partner Performance Analysis
+### Partner Performance Analysis
 
 * Counts successful vs returned deliveries
 
-### 🏆 Partner Scorecard
+### Partner Scorecard
 
 * Calculates success rate for each partner
 
-### 🌍 Zone Analysis
+###  Zone Analysis
 
 * Finds most popular destination city in last 30 days
 
-### 📈 Advanced Analytics
+### Advanced Analytics
 
 * Average delay per partner
 * Late deliveries count
 * Delivery time calculation
 * Monthly shipment trends
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Ecommerce-Logistics-SQL/
@@ -81,7 +81,7 @@ Ecommerce-Logistics-SQL/
 <img width="482" height="345" alt="output4" src="https://github.com/user-attachments/assets/ebc1504e-2a4d-4c4a-9dda-2aaa0b3dc6d6" />
 
 '''
-## 💡 Key SQL Concepts Used
+##  Key SQL Concepts Used
 
 * JOIN (INNER JOIN)
 * GROUP BY & Aggregations
@@ -89,13 +89,13 @@ Ecommerce-Logistics-SQL/
 * DATE Functions (DATEDIFF, DATE_SUB)
 * Filtering & Sorting
 ---
-## 🚀 Future Enhancements
+## Future Enhancements
 
 * Integrate with a web dashboard
 * Add real-time tracking system
 * Connect with Power BI for visualization
 ---
-## 👨‍💻 Author
+##  Author
 Completed by: Gopikrishna Thirunavukarasu 
 
 SRM University

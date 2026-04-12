@@ -1,22 +1,22 @@
-# SmartPay Utility Biller 💡💧
-## 📌 Overview
+# SmartPay Utility Biller 
+## Overview
 
 SmartPay Utility Biller is a Core Java console application that calculates electricity or water bills based on units consumed using a progressive slab system. The program also validates user input and generates a simple digital receipt.
 
 This project is designed to demonstrate fundamental Java concepts such as interfaces, classes, loops, and conditional logic.
 
 ---
-## 🚀 Features
+##  Features
 
-* ✅ Progressive slab-based billing system
-* ✅ Input validation for meter readings
-* ✅ Interface implementation (`Billable`)
-* ✅ Digital receipt generation
-* ✅ Continuous input support (multiple customers)
-* ✅ Compatible with online Java compilers
+* Progressive slab-based billing system
+* Input validation for meter readings
+* Interface implementation (`Billable`)
+* Digital receipt generation
+* Continuous input support (multiple customers)
+* Compatible with online Java compilers
 
 ---
-## 🧮 Billing Logic
+##  Billing Logic
 
 | Units Consumed | Rate per Unit |
 | -------------- | ------------- |
@@ -26,7 +26,7 @@ This project is designed to demonstrate fundamental Java concepts such as interf
 
 > The billing is calculated cumulatively based on slabs.
 ---
-## 🏗️ Technologies Used
+##  Technologies Used
 
 * Java (Core Java)
 * Object-Oriented Programming (OOP)
@@ -36,7 +36,7 @@ This project is designed to demonstrate fundamental Java concepts such as interf
   * Encapsulation
 
 ---
-## 🧪 Sample Input
+## Sample Input
 
 ```id="input1"
 Enter Customer Name: Gopi
@@ -46,7 +46,7 @@ Enter Current Reading: 250
 
 ---
 
-## 📄 Sample Output
+## Sample Output
 
 ```id="output1"
 ------ DIGITAL RECEIPT ------
@@ -59,7 +59,7 @@ Total Bill    : $200.0
 
 ---
 
-## ⚠️ Input Validation
+## Input Validation
 
 * The program ensures that:
 
@@ -68,7 +68,7 @@ Total Bill    : $200.0
 
 ---
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 * Understand how to use interfaces in Java
 * Implement real-world billing logic using conditions
@@ -77,7 +77,7 @@ Total Bill    : $200.0
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 Completed by : Gopikrishna Thirunavukarasu
 

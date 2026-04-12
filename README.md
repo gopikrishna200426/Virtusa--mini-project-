@@ -1,4 +1,4 @@
-# Virtusa Use Case Projects 🚀
+# Virtusa Use Case Projects 
 
 ## 📌 Overview
 
@@ -6,7 +6,7 @@ This repository contains use case projects developed to practice real-world prob
 
 ---
 
-## 🛠️ Technologies Covered
+##  Technologies Covered
 
 * **Java** – Object-Oriented Programming and application development
 * **Python** – Automation and text processing
@@ -14,7 +14,7 @@ This repository contains use case projects developed to practice real-world prob
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```id="struct_final"
 Virtusa-mini-project/
@@ -41,28 +41,28 @@ Virtusa-mini-project/
 
 ---
 
-## 1. Python — Social Media Content Sanitizer 🧹
+## 1. Python — Social Media Content Sanitizer 
 
 A simple automation tool that processes user-generated content and filters inappropriate or unwanted words. The script cleans input text and produces a sanitized output.
 
 Technologies: Python, file handling, string processing
 
 Key Skills: String manipulation, pattern filtering, text processing, automation
-### ✨ Features
+###  Features
 
 * Filters predefined banned words from input text
 * Replaces inappropriate content with safe alternatives
 * Supports basic text processing and cleaning
 * Generates sanitized output
 
-### 📌 Output
+###  Output
 
 * <img width="781" height="418" alt="output" src="https://github.com/user-attachments/assets/4a66fd67-9c2c-4d7e-bdb8-598b4d46d6ed" />
 
 
 ---
 
-## 2. SQL — E-Commerce Logistics Tracker System 📊
+## 2. SQL — E-Commerce Logistics Tracker System 
 
 Focuses on designing structured datasets and writing SQL queries to extract meaningful insights. The project performs operations such as filtering records, joining tables, and analyzing data patterns.
 
@@ -70,26 +70,26 @@ Technologies: SQL
 
 Key Skills: Database design, JOIN operations, aggregate functions, filtering & grouping
 
-### 🗄️ Tables / Data
+###  Tables / Data
 
 * Structured datasets for analysis
 * Query-based operations
 
-### ✨ Features
+###  Features
 
 * Perform filtering and sorting of data
 * Use JOIN operations for combining tables
 * Apply aggregate functions (SUM, COUNT, AVG)
 * Generate insights from datasets
 
-### 📌 Output
+###  Output
 
 * <img width="689" height="692" alt="image" src="https://github.com/user-attachments/assets/b4fd6022-44ca-4068-83c8-4b3e6a1606ea" />
 
 
 ---
 
-## 3. Java — SmartPay Utility Biller 💡💧
+## 3. Java — SmartPay Utility Biller 
 
 A console-based billing application that calculates utility bills using a progressive slab system. It includes input validation, interface-based design, and receipt generation.
 
@@ -97,7 +97,7 @@ Technologies: Java, OOP concepts
 
 Key Skills: Interface implementation, encapsulation, conditional logic, input validation
 
-### ✨ Features
+###  Features
 
 * Calculates bill based on usage slabs
 * Implements interface-based design (`Billable`)
@@ -105,17 +105,17 @@ Key Skills: Interface implementation, encapsulation, conditional logic, input va
 * Generates a digital receipt
 * Supports multiple users using loop
 
-### 💡 Billing Logic
+###  Billing Logic
 
 * 0–100 units → $1/unit
 * 101–300 units → $2/unit
 * Above 300 units → $5/unit
 
-### 📌 Output
+###  Output
 
 * <img width="546" height="687" alt="output" src="https://github.com/user-attachments/assets/a3ce18e2-d562-4beb-a9fb-75ce32bfce90" />
 
-📌 Notes
+ ### Notes
 * All projects are implemented individually
 * Focus is on clarity, logic, and real-world use cases
 * Each project demonstrates core programming concepts

@@ -96,5 +96,5 @@ Ecommerce-Logistics-SQL/
 * Connect with Power BI for visualization
 ---
 ## 👨‍💻 Author
-#Gopikrishna
-#SRM University
+Completed by: Gopikrishna Thirunavukarasu
+SRM University

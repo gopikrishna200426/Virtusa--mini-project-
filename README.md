@@ -43,24 +43,17 @@ Virtusa-mini-project/
 
 ## 1. Python — Social Media Content Sanitizer 🧹
 
-A simple automation tool designed to filter inappropriate or unwanted words from user-generated content.
+A simple automation tool that processes user-generated content and filters inappropriate or unwanted words. The script cleans input text and produces a sanitized output.
 
+Technologies: Python, file handling, string processing
+
+Key Skills: String manipulation, pattern filtering, text processing, automation
 ### ✨ Features
 
 * Filters predefined banned words from input text
 * Replaces inappropriate content with safe alternatives
 * Supports basic text processing and cleaning
 * Generates sanitized output
-
-### ▶️ How to Run
-
-* Open terminal in the Python folder
-* Run:
-
-  ```bash
-  python sanitizer.py
-  ```
-* Enter text when prompted
 
 ### 📌 Output
 
@@ -69,9 +62,13 @@ A simple automation tool designed to filter inappropriate or unwanted words from
 
 ---
 
-## 2. SQL — Data Analysis & Query Processing 📊
+## 2. SQL — E-Commerce Logistics Tracker System 📊
 
-A structured SQL project focusing on database operations and extracting meaningful insights from data.
+Focuses on designing structured datasets and writing SQL queries to extract meaningful insights. The project performs operations such as filtering records, joining tables, and analyzing data patterns.
+
+Technologies: SQL
+
+Key Skills: Database design, JOIN operations, aggregate functions, filtering & grouping
 
 ### 🗄️ Tables / Data
 
@@ -85,16 +82,6 @@ A structured SQL project focusing on database operations and extracting meaningf
 * Apply aggregate functions (SUM, COUNT, AVG)
 * Generate insights from datasets
 
-### ▶️ How to Run
-
-* Open any SQL environment (MySQL / PostgreSQL / SSMS)
-* Execute queries from:
-
-  ```
-  queries.sql
-  ```
-* View results in output panel
-
 ### 📌 Output
 
 * <img width="689" height="692" alt="image" src="https://github.com/user-attachments/assets/b4fd6022-44ca-4068-83c8-4b3e6a1606ea" />
@@ -104,7 +91,11 @@ A structured SQL project focusing on database operations and extracting meaningf
 
 ## 3. Java — SmartPay Utility Biller 💡💧
 
-A console-based utility billing system that calculates electricity or water bills using a progressive slab method.
+A console-based billing application that calculates utility bills using a progressive slab system. It includes input validation, interface-based design, and receipt generation.
+
+Technologies: Java, OOP concepts
+
+Key Skills: Interface implementation, encapsulation, conditional logic, input validation
 
 ### ✨ Features
 
@@ -119,20 +110,6 @@ A console-based utility billing system that calculates electricity or water bill
 * 0–100 units → $1/unit
 * 101–300 units → $2/unit
 * Above 300 units → $5/unit
-
-### ▶️ How to Run
-
-* Open terminal in Java project folder
-* Compile:
-
-  ```bash
-  javac src/*.java
-  ```
-* Run:
-
-  ```bash
-  java src.Main
-  ```
 
 ### 📌 Output
 

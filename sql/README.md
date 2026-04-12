@@ -77,7 +77,10 @@ Ecommerce-Logistics-SQL/
 ```
 ## 📸 Sample Output
 <img width="702" height="227" alt="output1" src="https://github.com/user-attachments/assets/939bfb99-fd8b-4005-933b-e8b884c9ceb5" />
+<img width="422" height="221" alt="output2" src="https://github.com/user-attachments/assets/7182aef7-2bb2-49c9-ba9f-b1812bd2e69b" />
 <img width="482" height="345" alt="output4" src="https://github.com/user-attachments/assets/ebc1504e-2a4d-4c4a-9dda-2aaa0b3dc6d6" />
+
+'''
 ## 💡 Key SQL Concepts Used
 
 * JOIN (INNER JOIN)

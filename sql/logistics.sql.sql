@@ -1,14 +1,3 @@
--- =========================
--- 1. DROP TABLES (for re-run)
--- =========================
-DROP TABLE IF EXISTS DeliveryLogs;
-DROP TABLE IF EXISTS Shipments;
-DROP TABLE IF EXISTS Partners;
-
--- =========================
--- 2. CREATE TABLES
--- =========================
-
 CREATE TABLE Partners (
     PartnerID INT PRIMARY KEY,
     PartnerName VARCHAR(100)
@@ -32,10 +21,7 @@ CREATE TABLE DeliveryLogs (
     UpdateTime DATETIME,
     FOREIGN KEY (ShipmentID) REFERENCES Shipments(ShipmentID)
 );
-
--- =========================
--- 3. INSERT DATA
--- =========================
+-- INSERT DATA
 
 INSERT INTO Partners VALUES
 (1, 'BlueDart'),
@@ -56,17 +42,11 @@ INSERT INTO DeliveryLogs VALUES
 (3, 103, 'Delayed', '2026-03-08 12:00:00'),
 (4, 105, 'Returned', '2026-03-15 16:00:00');
 
--- =========================
--- 4. DELAYED SHIPMENTS
--- =========================
 
 SELECT ShipmentID, DestinationCity, PromisedDate, ActualDeliveryDate
 FROM Shipments
 WHERE ActualDeliveryDate > PromisedDate;
 
--- =========================
--- 5. PARTNER PERFORMANCE
--- =========================
 
 SELECT p.PartnerName,
        SUM(CASE WHEN s.Status = 'Delivered' THEN 1 ELSE 0 END) AS Successful,
@@ -75,9 +55,6 @@ FROM Shipments s
 JOIN Partners p ON s.PartnerID = p.PartnerID
 GROUP BY p.PartnerName;
 
--- =========================
--- 6. PARTNER SCORECARD
--- =========================
 
 SELECT p.PartnerName,
        COUNT(*) AS Total_Shipments,
@@ -87,10 +64,6 @@ JOIN Partners p ON s.PartnerID = p.PartnerID
 GROUP BY p.PartnerName
 ORDER BY Success_Rate DESC;
 
--- =========================
--- 7. WORST PERFORMING PARTNER
--- =========================
-
 SELECT p.PartnerName,
        ROUND(SUM(CASE WHEN s.Status = 'Delivered' THEN 1 ELSE 0 END) * 100 / COUNT(*), 2) AS Success_Rate
 FROM Shipments s
@@ -98,9 +71,7 @@ JOIN Partners p ON s.PartnerID = p.PartnerID
 GROUP BY p.PartnerName
 ORDER BY Success_Rate ASC
 LIMIT 1;
--- =========================
--- 8. Average Delivery Delay (in Days)
--- =========================
+
 
 SELECT p.PartnerName,
        AVG(DATEDIFF(s.ActualDeliveryDate, s.PromisedDate)) AS Avg_Delay_Days
@@ -109,18 +80,12 @@ JOIN Partners p ON s.PartnerID = p.PartnerID
 WHERE s.ActualDeliveryDate > s.PromisedDate
 GROUP BY p.PartnerName;
 
--- =========================
--- 9. Monthly Orders Count
--- =========================
 
 SELECT MONTH(OrderDate) AS Month,
        COUNT(*) AS Orders
 FROM Shipments
 GROUP BY MONTH(OrderDate);
 
--- =========================
--- 10. Most Delayed Shipment
--- =========================
 SELECT ShipmentID,
        DATEDIFF(ActualDeliveryDate, PromisedDate) AS Delay_Days
 FROM Shipments

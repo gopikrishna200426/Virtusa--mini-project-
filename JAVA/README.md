@@ -36,16 +36,6 @@ This project is designed to demonstrate fundamental Java concepts such as interf
   * Encapsulation
 
 ---
-## 📂 Project Structure (Single File Version)
-
-SmartPay-Utility-Biller/
-│
-├── src/
-│   ├── Billable.java
-│   ├── UtilityBill.java
-│   └── Main.java
-│
-└── README.md
 ## 🧪 Sample Input
 
 ```id="input1"
@@ -90,6 +80,7 @@ Total Bill    : $200.0
 ## 👨‍💻 Author
 
 Completed by : Gopikrishna Thirunavukarasu
+
 SRM university
 
 ---

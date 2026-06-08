@@ -52,10 +52,11 @@ Enter Current Reading: 250
 ------ DIGITAL RECEIPT ------
 Customer Name : Gopi
 Units Consumed: 150
-Total Bill    : $200.0
+Total Bill    : 200.0
 -----------------------------
 ```
-<img width="546" height="687" alt="output" src="https://github.com/user-attachments/assets/2b252c05-e41b-4b9d-8866-0465219d2966" />
+<img width="647" height="617" alt="image" src="https://github.com/user-attachments/assets/feb786d5-738d-4bc5-9f6c-2b7fbba4a3dc" />
+" />
 
 ---
 

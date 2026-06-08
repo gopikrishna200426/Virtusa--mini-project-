@@ -43,7 +43,7 @@ public class UtilityBill implements Billable {
         System.out.println("\n------ DIGITAL RECEIPT ------");
         System.out.println("Customer Name : " + customerName);
         System.out.println("Units Consumed: " + unitsConsumed);
-        System.out.println("Total Bill    : $" + totalAmount);
+        System.out.println("Total Bill    : " + totalAmount);
         System.out.println("-----------------------------");
     }
 }

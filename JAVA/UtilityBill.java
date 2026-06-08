@@ -29,11 +29,11 @@ public class UtilityBill implements Billable {
         calculateUnits();
 
         if (unitsConsumed <= 100) {
-            totalAmount = unitsConsumed * 1.0;
+            totalAmount = unitsConsumed * 100;
         } else if (unitsConsumed <= 300) {
-            totalAmount = (100 * 1.0) + ((unitsConsumed - 100) * 2.0);
+            totalAmount = (100 * 1.0) + ((unitsConsumed - 100) * 200);
         } else {
-            totalAmount = (100 * 1.0) + (200 * 2.0) + ((unitsConsumed - 300) * 5.0);
+            totalAmount = (100 * 1.0) + (200 * 2.0) + ((unitsConsumed - 300) * 500);
         }
 
         return totalAmount;

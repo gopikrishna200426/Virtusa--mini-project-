@@ -20,9 +20,9 @@ This project is designed to demonstrate fundamental Java concepts such as interf
 
 | Units Consumed | Rate per Unit |
 | -------------- | ------------- |
-| 0 – 100        | $1.00         |
-| 101 – 300      | $2.00         |
-| Above 300      | $5.00         |
+| 0 – 100        | 100         |
+| 101 – 300      | 200       |
+| Above 300      | 500        |
 
 > The billing is calculated cumulatively based on slabs.
 ---

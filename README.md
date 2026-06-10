@@ -107,13 +107,13 @@ Key Skills: Interface implementation, encapsulation, conditional logic, input va
 
 ###  Billing Logic
 
-* 0–100 units → $1/unit
-* 101–300 units → $2/unit
-* Above 300 units → $5/unit
+* 0–100 units → 100/unit
+* 101–300 units → 200/unit
+* Above 300 units → 300/unit
 
-###  Output
-
-* <img width="546" height="687" alt="output" src="https://github.com/user-attachments/assets/a3ce18e2-d562-4beb-a9fb-75ce32bfce90" />
+###  Output 
+<img width="647" height="617" alt="image" src="https://github.com/user-attachments/assets/4198efba-98cb-4c30-b916-0818023ac808" />
+" />
 
  ### Notes
 * All projects are implemented individually

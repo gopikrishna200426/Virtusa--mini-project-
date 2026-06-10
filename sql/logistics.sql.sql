@@ -49,10 +49,11 @@ WHERE ActualDeliveryDate > PromisedDate;
 
 
 SELECT p.PartnerName,
-       SUM(CASE WHEN s.Status = 'Delivered' THEN 1 ELSE 0 END) AS Successful,
-       SUM(CASE WHEN s.Status = 'Returned' THEN 1 ELSE 0 END) AS Returned
+       COUNT(*) AS DeliveredShipments
 FROM Shipments s
-JOIN Partners p ON s.PartnerID = p.PartnerID
+JOIN Partners p
+ON s.PartnerID = p.PartnerID
+WHERE s.Status = 'Delivered'
 GROUP BY p.PartnerName;
 
 
@@ -87,8 +88,5 @@ FROM Shipments
 GROUP BY MONTH(OrderDate);
 
 SELECT ShipmentID,
-       DATEDIFF(ActualDeliveryDate, PromisedDate) AS Delay_Days
-FROM Shipments
-WHERE ActualDeliveryDate > PromisedDate
-ORDER BY Delay_Days DESC
-LIMIT 1;
+       DATEDIFF(day, PromisedDate, ActualDeliveryDate) AS Delay_Days
+FROM Shipments;
